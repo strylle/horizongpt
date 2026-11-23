@@ -1,0 +1,25 @@
+# everything private: lore docs, search index, config, SOUL.md
+private/
+
+# in case private files get made outside private/ by accident
+*.npy
+*.npz
+!starter_filter.npz
+*.docx
+data/
+index.json
+recent_answers.json
+usage.json
+config.json
+SOUL.md
+questions.json
+
+# secrets
+.env
+*.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/

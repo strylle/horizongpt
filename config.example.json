@@ -1,0 +1,32 @@
+{
+  "discord": {
+    "server_id": "",
+    "listen_channels": [],
+    "cooldown_seconds": 15,
+    "daily_cap": 300
+  },
+  "models": {
+    "provider": "anthropic",
+    "answer_effort": "medium",
+    "anthropic": {
+      "answer": "claude-haiku-5-5",
+      "checks": "claude-haiku-5-5"
+    },
+    "openai": {
+      "answer": "gpt-6-luna",
+      "checks": "gpt-6-luna"
+    },
+    "gemini": {
+      "answer": "gemini-3.8-flash",
+      "checks": "gemini-3.8-flash"
+    }
+  },
+  "tuning": {
+    "local_filter": false,
+    "lore_chars_per_question": 60000,
+    "filter_cutoff": 0.3,
+    "shrug_below": 0.52,
+    "remember_answers_days": 7,
+    "repeat_threshold": 0.65
+  }
+}

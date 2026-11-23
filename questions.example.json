@@ -1,0 +1,4 @@
+[
+  {"q": "Who leads the country in the start year, and how did they come to power?", "expect": "a heading that should be found"},
+  {"q": "What are the focus tree paths?", "expect": null}
+]

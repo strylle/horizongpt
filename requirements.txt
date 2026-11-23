@@ -1,0 +1,11 @@
+anthropic>=2.12,<3
+discord.py>=2.7,<3
+numpy>=2.0,<3
+python-docx>=1.2,<2
+python-dotenv>=1.2,<2
+rank_bm25>=0.2.2,<0.3
+sentence-transformers>=6.3,<7
+
+# only if you set "provider" to openai or gemini in config.json:
+# openai>=3.57,<4
+# google-genai>=3.6,<4
